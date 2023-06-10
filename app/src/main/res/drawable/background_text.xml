@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#AED9E0" /> <!-- Color de fondo del TextView -->
+    <corners android:radius="5dp" /> <!-- Radio de los bordes redondeados -->
+    <padding
+        android:left="6dp"
+        android:top="6dp"
+        android:right="6dp"
+        android:bottom="6dp" /> <!-- Padding en los lados del TextView -->
+</shape>

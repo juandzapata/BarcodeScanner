@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/title_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+        <TextView
+            android:id="@+id/textView_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter ID"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_first_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_first_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Name"
+            android:background="@drawable/background_text"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/title_first_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_other_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Other Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_first_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_other_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Other Name"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_other_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_first_family_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="First Family Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_other_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_first_family_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Family Name"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_first_family_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_second_family_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Second Family Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_first_family_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_second_family_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Second Family Name"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_second_family_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_date_of_birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_second_family_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_date_of_birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Date of Birth"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_date_of_birth"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/title_gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/textView_date_of_birth"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView_gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Gender"
+            android:textSize="17sp"
+            android:background="@drawable/background_text"
+            app:layout_constraintTop_toBottomOf="@id/title_gender"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Scan"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_gender" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
